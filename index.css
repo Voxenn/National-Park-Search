@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  background-color: #A98A84;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px;
+  text-align: left;
+}
+
+form {
+  font-size: 2em;
+}
+h1 {
+  font-size: 5em;
+}
+
+section {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container {
+  font-family: "Brush Script Std", cursive, serif;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-message {
+  color: red;
+}
